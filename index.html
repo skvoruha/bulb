@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="content__item">
+          <input class="l" type="checkbox" targetItem="1" /><span>1</span>
+        </div>
+        <div class="content__item">
+          <input class="l" type="checkbox" targetItem="2" /><span>2</span>
+        </div>
+        <div class="content__item">
+          <input class="l" type="checkbox" targetItem="3" /><span>3</span>
+        </div>
+      </div>
+      <div class="btn" id="btn">
+        <button>Показать лампочки</button>
+      </div>
+    </div>
+
+    <div class="bulb__container">
+      <div class="temp__info">
+        <select id="select">
+          <option value="1">Лампочка 1</option>
+          <option value="2">Лампочка 2</option>
+          <option value="3">Лампочка 3</option>
+        </select>
+        <button id="vievTempBtn">показать температуру :</button>
+        <span class="temp__information">0</span>
+      </div>
+      <div class="bulb">
+        <div class="bulb__item">
+          <img src="image/buldfalse.jpg" temp="0" /><span></span>
+        </div>
+        <div class="bulb__item">
+          <img src="image/buldfalse.jpg" temp="0" /><span></span>
+        </div>
+        <div class="bulb__item">
+          <img src="image/buldfalse.jpg" temp="0" /><span></span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
